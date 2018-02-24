@@ -1,8 +1,18 @@
 package Player;
 
 public class Player {
-	private int diamonds = 0;
 	
+	private int diamonds = 0;
+
+	static Player player = new Player();
+	private Player() {
+
+	}
+	
+	public static Player getInstance() {
+		return player;
+	}
+
 	public int getDiamonds() {
 		return diamonds;
 	}
@@ -11,5 +21,4 @@ public class Player {
 		this.diamonds = diamonds;
 	}
 
-	
 }
