@@ -1,2 +1,2 @@
 # Tower-Defence
-I made this game to practice my Java skills
+I develop this game to practice my Java skills
