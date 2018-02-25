@@ -17,6 +17,15 @@ public class Shop {
 		return shop;
 	}
 	
+	
+	static {
+		System.out.println("Shop is available");
+	}
+	
+	{
+		System.out.println("You are in the shop");
+	}
+	
 	public void reduceReinforcementQuantity(String nameOfTheReinforcement) {
 		switch (nameOfTheReinforcement) {
 		case "Chill Wand":
