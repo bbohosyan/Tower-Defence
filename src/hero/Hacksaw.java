@@ -1,10 +1,30 @@
 package hero;
 
 public class Hacksaw implements IHero {
-	private byte health = 8;
-	private byte meleeDamage = 7;
-	private byte rangedDamage = 0;
-	private byte speed = 3;
+	
+	@Override
+	public byte getHealth() {
+		return 8;
+		
+	}
+
+	@Override
+	public byte getMeleeDamage() {
+		return 7;
+		
+	}
+
+	@Override
+	public byte getRangedDamage() {
+		return 0;
+		
+	}
+
+	@Override
+	public byte getSpeed() {
+		return 3;
+		
+	}
 	
 	@Override
 	public void specialAttack() {

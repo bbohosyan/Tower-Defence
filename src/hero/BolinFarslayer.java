@@ -1,10 +1,30 @@
 package hero;
 
 public class BolinFarslayer implements IHero {
-	private byte health = 6;
-	private byte meleeDamage = 5;
-	private byte rangedDamage = 5;
-	private byte speed = 4;
+
+	@Override
+	public byte getHealth() {
+		return 6;
+		
+	}
+
+	@Override
+	public byte getMeleeDamage() {
+		return 5;
+		
+	}
+
+	@Override
+	public byte getRangedDamage() {
+		return 5;
+		
+	}
+
+	@Override
+	public byte getSpeed() {
+		return 4;
+		
+	}
 	
 	@Override
 	public void specialAttack() {

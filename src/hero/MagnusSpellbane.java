@@ -1,10 +1,30 @@
 package hero;
 
 public class MagnusSpellbane implements IHero {
-	private byte health = 2;
-	private byte meleeDamage = 2;
-	private byte rangedDamage = 8;
-	private byte speed = 8;
+	
+	@Override
+	public byte getHealth() {
+		return 2;
+		
+	}
+
+	@Override
+	public byte getMeleeDamage() {
+		return 2;
+		
+	}
+
+	@Override
+	public byte getRangedDamage() {
+		return 8;
+		
+	}
+
+	@Override
+	public byte getSpeed() {
+		return 8;
+		
+	}
 	
 	@Override
 	public void specialAttack() {
