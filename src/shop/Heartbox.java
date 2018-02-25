@@ -1,6 +1,6 @@
 package shop;
 
-public class Heartbox {
+public class Heartbox implements IReinforcement {
 	private short price = 350;
 	
 	static Heartbox heartbox = new Heartbox();
@@ -15,5 +15,11 @@ public class Heartbox {
 
 	public short getPrice() {
 		return this.price;
+	}
+
+	@Override
+	public void Activate() {
+		// TODO Auto-generated method stub
+		
 	}
 }

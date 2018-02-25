@@ -1,6 +1,6 @@
 package shop;
 
-public class Frozotov {
+public class Frozotov implements IReinforcement {
 	private short price = 50;
 	
 	static Frozotov frozotov = new Frozotov();
@@ -15,5 +15,11 @@ public class Frozotov {
 
 	public short getPrice() {
 		return this.price;
+	}
+
+	@Override
+	public void Activate() {
+		// TODO Auto-generated method stub
+		
 	}
 }
